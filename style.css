@@ -1,0 +1,43 @@
+/* Created by maresal prm */
+
+#HeadFrame{background-color : #1A1919;}
+#PageFrame{background-color:#424242;}
+#MenuFrame{background-color:#2B2B2B;}
+
+QLabel{
+    font: 75 10pt "Century Gothic";
+    color:white;
+}
+
+QPushButton{
+    background-color:#2B2B2B;
+    color: white;
+    font: 75 9pt "Century Gothic";
+    border:none;
+    padding:10px;
+    }
+QPushButton:hover{
+    background-color:#353232;
+    border:none;
+    color: lawngreen;
+    }
+QPushButton:pressed{
+    background-color:#292929;
+    border:none;
+    color: white;
+    }
+
+#scrollAreaWidgetContents{background-color: #424242;}
+
+QGroupBox{border-radius: none;}
+#ozetTxtedt{background-color: transparent; color: white;border: none;font: 75 10pt "Century Gothic";}
+
+#OzetLbl{font:75 12pt "Century Gothic";}
+#filmNameLbl{font: 75 12pt "Century Gothic";}
+
+QMessageBox{background-color:#2B2B2B;}
+
+#LoginLogoLbl{image:url(icons/account.png);}
+#label{image:url(icons/MaresalPRM.png)}
+
+#IconLbl{image:url(icons/marelogo.ico)}
